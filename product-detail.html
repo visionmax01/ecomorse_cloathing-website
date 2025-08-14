@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - Fashion Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Fashion <span>Store</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="../auth/login.html"><i class="fas fa-user"></i></a>
+                    <a href="cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">1</span>
+                    </a>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Product Detail Section -->
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-detail-container">
+                <div class="product-images">
+                    <div class="main-image">
+                        <img src="../image/Cotton-Printed-Kurta-4.jpg" alt="Cotton Printed Kurta">
+                    </div>
+                    <div class="thumbnail-images">
+                        <div class="thumbnail active">
+                            <img src="../image/Cotton-Printed-Kurta-4.jpg" alt="Cotton Printed Kurta">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="../image/Cotton-Printed-Kurta-2.jpg" alt="Cotton Printed Kurta Detail">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="../image/Cotton-Printed-Kurta-3.jpg" alt="Cotton Printed Kurta Back">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="../image/Cotton-Printed-Kurta-1.jpg" alt="Cotton Printed Kurta Pallu">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="product-badge">New</div>
+                    <h1>Banarasi Silk Saree</h1>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(42 reviews)</span>
+                        <a href="#reviews">Write a review</a>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹2,499</span>
+                        <span class="original-price">₹3,999</span>
+                        <span class="discount">38% OFF</span>
+                    </div>
+                    <div class="product-meta">
+                        <p><span>Availability:</span> In Stock</p>
+                        <p><span>Product Code:</span> DDSARE001</p>
+                        <p><span>Fabric:</span> Pure Banarasi Silk</p>
+                        <p><span>Color:</span> Red with Gold Zari</p>
+                    </div>
+                    <div class="product-description">
+                        <p>This exquisite Banarasi silk saree is handwoven by skilled artisans in Varanasi. The intricate zari work and traditional motifs make it perfect for weddings and special occasions. The rich fabric drapes beautifully and the golden border adds a regal touch.</p>
+                    </div>
+                    <div class="product-options">
+                        <div class="option">
+                            <label>Size:</label>
+                            <select>
+                                <option>Select Size</option>
+                                <option>Free Size</option>
+                                <option>Custom Size (Extra ₹500)</option>
+                            </select>
+                        </div>
+                        <div class="option">
+                            <label>Blouse Piece:</label>
+                            <select>
+                                <option>With Blouse Piece</option>
+                                <option>Without Blouse Piece (-₹300)</option>
+                            </select>
+                        </div>
+                        <div class="option">
+                            <label>Quantity:</label>
+                            <div class="quantity">
+                                <button class="qty-btn">-</button>
+                                <input type="text" value="1">
+                                <button class="qty-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <a href="./cart.html" class="btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        <button class="btn-outline"><i class="fas fa-heart"></i> Add to Wishlist</button>
+                    </div>
+                    <div class="product-share">
+                        <span>Share:</span>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Tabs -->
+            <div class="product-tabs">
+                <ul class="tabs">
+                    <li class="active">Description</li>
+                    <li>Additional Information</li>
+                    <li>Reviews (42)</li>
+                    <li>Shipping & Returns</li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active">
+                        <h3>Product Description</h3>
+                        <p>This Banarasi silk saree is a masterpiece of Indian craftsmanship. Woven with pure silk threads and adorned with intricate zari work, it showcases the rich heritage of Varanasi's weaving tradition. The saree features traditional motifs inspired by Mughal architecture, with a rich red base and golden borders.</p>
+                        <p>The fabric has a luxurious drape and sheen that enhances the wearer's elegance. The pallu is particularly ornate, with dense zari patterns that catch the light beautifully. The saree comes with a matching blouse piece that complements the main design.</p>
+                        <h3>Care Instructions</h3>
+                        <ul>
+                            <li>Dry clean only to preserve the zari work</li>
+                            <li>Store in a cool, dry place wrapped in muslin cloth</li>
+                            <li>Avoid direct sunlight to prevent color fading</li>
+                            <li>Do not iron directly on zari work</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Products -->
+            <div class="related-products">
+                <h2 class="section-title">You May Also Like</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="../image/Cotton-Printed-Kurta-product-1.webp" alt="Chanderi Silk Saree">
+                        <div class="product-info">
+                            <h3>Chanderi Silk Saree</h3>
+                            <div class="product-price">
+                                <span class="current-price">₹3,199</span>
+                                <span class="original-price">₹4,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(56)</span>
+                            </div>
+                            <a href="product-detail.html" class="btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-badge">Sale</div>
+                        <img src="../image/Cotton-Printed-Kurta-product-2.webp" alt="Cotton Printed Kurta">
+                        <div class="product-info">
+                            <h3>Cotton Printed Kurta</h3>
+                            <div class="product-price">
+                                <span class="current-price">₹899</span>
+                                <span class="original-price">₹1,299</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(28)</span>
+                            </div>
+                            <a href="product-detail.html" class="btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="../image/Cotton-Printed-Kurta-product-3.webp" alt="Bridal Lehenga">
+                        <div class="product-info">
+                            <h3>Bridal Lehenga</h3>
+                            <div class="product-price">
+                                <span class="current-price">₹12,999</span>
+                                <span class="original-price">₹16,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(78)</span>
+                            </div>
+                            <a href="product-detail.html" class="btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="../image/Cotton-Printed-Kurta-product-4.webp" alt="Embroidered Sherwani">
+                        <div class="product-info">
+                            <h3>Embroidered Sherwani</h3>
+                            <div class="product-price">
+                                <span class="current-price">₹5,999</span>
+                                <span class="original-price">₹8,500</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(34)</span>
+                            </div>
+                            <a href="product-detail.html" class="btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Fashion Store</h3>
+                    <p>Celebrating India's rich textile heritage through contemporary designs that blend tradition with modern aesthetics.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="products.html">Sarees</a></li>
+                        <li><a href="products.html">Kurtas</a></li>
+                        <li><a href="products.html">Lehengas</a></li>
+                        <li><a href="products.html">Sherwanis</a></li>
+                        <li><a href="products.html">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>Bhavnagar Road, Rajkot Gujrat India 360020</li>
+                        <li><i class="fas fa-phone"></i> +91 xxxxxxxxxx</li>
+                        <li><i class="fas fa-envelope"></i> info@fashionstore.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fashion Store. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Fashion Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Fashion <span>Store</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="../auth/login.html"><i class="fas fa-user"></i></a>
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">1</span>
+                    </a>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Products Hero -->
+    <section class="products-hero">
+        <div class="container">
+            <h1>Our Exquisite Collection</h1>
+            <p>Discover traditional Indian wear that blends heritage with contemporary style</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-filter">
+                <div class="filter-left">
+                    <span>Filter:</span>
+                    <select>
+                        <option>Category</option>
+                        <option>Sarees</option>
+                        <option>Kurtas</option>
+                        <option>Lehengas</option>
+                        <option>Sherwanis</option>
+                    </select>
+                    <select>
+                        <option>Price Range</option>
+                        <option>Under ₹1000</option>
+                        <option>₹1000 - ₹3000</option>
+                        <option>₹3000 - ₹5000</option>
+                        <option>Above ₹5000</option>
+                    </select>
+                    <select>
+                        <option>Sort By</option>
+                        <option>Popularity</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Newest First</option>
+                    </select>
+                </div>
+                <div class="filter-right">
+                    <span>Showing 1-12 of 48 products</span>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <img src="../image/Banarasi-Silk-Saree.jpg" alt="Banarasi Silk Saree">
+                    <div class="product-info">
+                        <h3>Banarasi Silk Saree</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹2,499</span>
+                            <span class="original-price">₹3,999</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <img src="../image/Cotton-Printed-Kurta-1.jpg" alt="Cotton Printed Kurta">
+                    <div class="product-info">
+                        <h3>Cotton Printed Kurta</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹899</span>
+                            <span class="original-price">₹1,299</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(28)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="../image/Chanderi-Silk-Saree.jpg" alt="Chanderi Silk Saree">
+                    <div class="product-info">
+                        <h3>Chanderi Silk Saree</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹3,199</span>
+                            <span class="original-price">₹4,500</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(56)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="../image/Embroidered-Sherwani.webp" alt="Embroidered Sherwani">
+                    <div class="product-info">
+                        <h3>Embroidered Sherwani</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹5,999</span>
+                            <span class="original-price">₹8,500</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(34)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="../image/Bridal-Lehenga.jpg" alt="Bridal Lehenga">
+                    <div class="product-info">
+                        <h3>Bridal Lehenga</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹12,999</span>
+                            <span class="original-price">₹16,500</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(78)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="../image/Cotton-Kurta-Set.jpg" alt="Cotton Kurta Set">
+                    <div class="product-info">
+                        <h3>Cotton Kurta Set</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹1,499</span>
+                            <span class="original-price">₹1,999</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(45)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <img src="../image/Kanjivaram-Silk-Saree.jpg" alt="Kanjivaram Silk Saree">
+                    <div class="product-info">
+                        <h3>Kanjivaram Silk Saree</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹4,299</span>
+                            <span class="original-price">₹5,999</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(62)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <img src="../image/Pathani-Suit.jpg" alt="Pathani Suit">
+                    <div class="product-info">
+                        <h3>Pathani Suit</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹2,199</span>
+                            <span class="original-price">₹2,999</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(37)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <img src="../image/Chanderi-Silk-Saree-2.jpg" alt="Bandhani Saree">
+                    <div class="product-info">
+                        <h3>Bandhani Saree</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹2,799</span>
+                            <span class="original-price">₹3,499</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(29)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product-card">
+                    <img src="../image/Linen-Kurta-2.jpg" alt="Linen Kurta">
+                    <div class="product-info">
+                        <h3>Linen Kurta</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹1,299</span>
+                            <span class="original-price">₹1,799</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(41)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 11 -->
+                <div class="product-card">
+                    <img src="../image/Designer-Lehenga-1.jpg" alt="Designer Lehenga">
+                    <div class="product-info">
+                        <h3>Designer Lehenga</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹9,999</span>
+                            <span class="original-price">₹12,500</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(53)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 12 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <img src="../image/Jodhpuri-Suit-3.jpg" alt="Jodhpuri Suit">
+                    <div class="product-info">
+                        <h3>Jodhpuri Suit</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹4,499</span>
+                            <span class="original-price">₹5,999</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(67)</span>
+                        </div>
+                        <a href="product-detail.html" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Fashion Store</h3>
+                    <p>Celebrating India's rich textile heritage through contemporary designs that blend tradition with modern aesthetics.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="products.html">Sarees</a></li>
+                        <li><a href="products.html">Kurtas</a></li>
+                        <li><a href="products.html">Lehengas</a></li>
+                        <li><a href="products.html">Sherwanis</a></li>
+                        <li><a href="products.html">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>Bhavnagar Road, Rajkot Gujrat India 360020</li>
+                        <li><i class="fas fa-phone"></i> +91 xxxxxxxxxx</li>
+                        <li><i class="fas fa-envelope"></i> info@fashionstore.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fashion Store. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
